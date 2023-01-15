@@ -1,3 +1,4 @@
 pyrogram
 rembg
 Pillow
+python-dotenv
