@@ -2,3 +2,4 @@ pyrogram
 rembg
 Pillow
 python-dotenv
+tgcrypto
