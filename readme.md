@@ -17,7 +17,7 @@ These instructions will get you a copy of the project up and running on your loc
 1. Clone the repository
 
 ```
-git clone https://github.com/habitual69/Background-Remover-Bot.git
+git clone https://github.com/habitual69/cutimagebg_bot.git
 ```
 
 1. Install the requirements
@@ -26,7 +26,7 @@ git clone https://github.com/habitual69/Background-Remover-Bot.git
 pip install -r requirements.txt
 ```
 
-1. Replace the **`YOUR_API_ID`**, **`YOUR_API_HASH`**, and **`BOT_TOKEN`** variables with your actual values in the **`main.py`** file.
+1. Replace the **`YOUR_API_ID`**, **`YOUR_API_HASH`**, and **`BOT_TOKEN`** variables with your actual values in the **`bot.py`** file.
 2. Run the bot
 
 ```
@@ -54,14 +54,14 @@ Please read **[CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957
 
 ## **Authors**
 
-- **Your Name** - *Initial work* - **[Your GitHub](https://github.com/yourusername)**
+- **Your Name** - *Initial work* - **[Your GitHub](https://github.com/habitual69)**
 
 ## **License**
 
-This project is licensed under the MIT License - see the **[LICENSE.md](https://chat.openai.com/chat/LICENSE.md)** file for details
+This project is licensed under the MIT License - see the **[LICENSE.md](https://raw.githubusercontent.com/git/git-scm.com/main/MIT-LICENSE.txt)** file for details
 
 ## **Acknowledgments**
 
 - Hat tip to anyone whose code was used
 - Inspiration
-- etc
+- Thanks to **[Daniel Gatis](https://github.com/danielgatis)** for rembg
