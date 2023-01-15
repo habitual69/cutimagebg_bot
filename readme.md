@@ -26,12 +26,43 @@ git clone https://github.com/habitual69/cutimagebg_bot.git
 pip install -r requirements.txt
 ```
 
-1. Replace the **`YOUR_API_ID`**, **`YOUR_API_HASH`**, and **`BOT_TOKEN`** variables with your actual values in the **`bot.py`** file.
+1. create .env file and put API_ID, API_HASH,BOT_TOKEN varible with values
+
 2. Run the bot
 
 ```
 python bot.py
 ```
+
+## **Deploying the Telegram Bot using Docker**
+
+This guide will show you how to deploy the Telegram bot using Docker.
+
+### **Prerequisites**
+
+- **[Docker](https://www.docker.com/)** installed on your machine
+- Telegram API credentials (API ID ,API hash, BOT TOKEN)
+- **`.env`** file containing Telegram API credentials
+
+### **Building the Image**
+
+To build the Docker image, run the following command in the root directory of the project:
+
+```
+docker build -t my_bot .
+```
+
+This command will create an image with the name 'my_bot' using the current directory as the build context.
+
+### **Running the Container**
+
+To run the Telegram bot in a Docker container, use the following command:
+
+```
+docker run -it --env-file .env my_bot
+```
+
+
 
 ## **How to use**
 

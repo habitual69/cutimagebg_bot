@@ -2,12 +2,18 @@ import pyrogram
 import os
 from rembg import remove
 import io
-from hide import *
 from PIL import Image
+import os
+from dotenv import load_dotenv
+load_dotenv()
 
+
+api_id = os.environ['API_ID']
+api_hash = os.environ['API_HASH']
+bot_token=os.environ['BOT_TOKEN']
 
 # Create a new client
-app = pyrogram.Client("cutimagebg_bot", api_id=YOUR_API_ID, api_hash=YOUR_API_HASH, bot_token=BOT_TOKEN)
+app = pyrogram.Client("cutimagebg_bot", api_id, api_hash, bot_token)
 
 
 @app.on_message(pyrogram.filters.command("start"))
