@@ -96,3 +96,6 @@ This project is licensed under the MIT License - see the **[LICENSE.md](https://
 - Hat tip to anyone whose code was used
 - Inspiration
 - Thanks to **[Daniel Gatis](https://github.com/danielgatis)** for rembg
+
+## **Demo Bot**
+**[Background Remover](https://t.me/cutimagebg_bot)**
